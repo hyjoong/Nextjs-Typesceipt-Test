@@ -20,9 +20,19 @@ export default function Home({ posts }: any) {
   );
 }
 
-export const getServerSideProps = async () => {
+// export const getServerSideProps = async () => {
+//   const res = await fetch(`http://localhost:8080/api/posts`);
+//   const posts = await res.json();
+//   return {
+//     props: {
+//       posts,
+//     },
+//   };
+
+export const getStaticProps = async () => {
   const res = await fetch(`http://localhost:8080/api/posts`);
   const posts = await res.json();
+
   return {
     props: {
       posts,

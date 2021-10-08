@@ -4,7 +4,7 @@ module.exports = {
       userId: 1,
       id: 1,
       title:
-        "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "sunt ssaut facere repellat provident occaecati excepturi optio reprehenderit",
       body:
         "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
     },
@@ -46,30 +46,9 @@ module.exports = {
     {
       userId: 1,
       id: 7,
-      title: "magnam facilis autem",
+      title: "mssagnam facilis autem",
       body:
-        "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas",
-    },
-    {
-      userId: 1,
-      id: 8,
-      title: "dolorem dolore est ipsam",
-      body:
-        "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae",
-    },
-    {
-      userId: 1,
-      id: 9,
-      title: "nesciunt iure omnis dolorem tempora et accusantium",
-      body:
-        "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas",
-    },
-    {
-      userId: 1,
-      id: 10,
-      title: "optio molestias id quia eum",
-      body:
-        "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error",
+        "ddddolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas",
     },
   ],
 };
