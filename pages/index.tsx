@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+export default function Home({ posts }: any) {
   return (
     <div>
       <Head>
@@ -11,9 +11,21 @@ const Home: NextPage = () => {
         <meta></meta>
       </Head>
 
-      <main>Next.js + TS</main>
+      <ul>
+        {posts.map((post: any) => (
+          <li key={posts.id}>{post.title}</li>
+        ))}
+      </ul>
     </div>
   );
-};
+}
 
-export default Home;
+export const getServerSideProps = async () => {
+  const res = await fetch(`http://localhost:8080/api/posts`);
+  const posts = await res.json();
+  return {
+    props: {
+      posts,
+    },
+  };
+};
